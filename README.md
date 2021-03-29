@@ -49,7 +49,7 @@ You can test various application functionalities by logging in through one of th
 
 ## Links 
 
-- GitHub repository: [https://github.com/klin4994/gymtrack](https://github.com/klin4994/project-2)
+- GitHub repository: [https://github.com/klin4994/gymtrack](https://github.com/klin4994/gymtrack)
 - Deployed application: [gymtrack-app.herokuapp.com](https://gymtrack-app.herokuapp.com/)
 - Presentation slides: [Google Slides](https://docs.google.com/presentation/d/1Fq8ysZkSJzhZkVIfUYoRk6_kMDduu-L-Hf_VRpZTnmg/edit?usp=sharing)
 

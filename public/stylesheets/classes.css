@@ -3,9 +3,8 @@
   padding-top: 0;
 }
 .class-page-banner {
-  /* height: 250px;
-  background: linear-gradient(321deg, rgba(255,212,198,1) 0%, rgba(221,111,61,1) 52%, rgba(251,34,20,1) 91%); */
-  background-image: url(../images/group-yoga.jpg);
+  
+  background: linear-gradient(321deg, rgba(255,212,198,1) 0%, rgba(221,111,61,1) 52%, rgba(251,34,20,1) 91%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

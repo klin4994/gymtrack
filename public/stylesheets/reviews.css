@@ -7,7 +7,6 @@
 } */
 
 .review-background-hero {
-    background-image: url(../images/men-weight-lift.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,9 +50,10 @@
 }
 
 #class-reviews, #instructor-reviews {
+    border: solid;
     width: 80%;
     margin: 50px auto;
-    padding : 20px;
+    padding : 2rem;
 }
 
 .class-heading {

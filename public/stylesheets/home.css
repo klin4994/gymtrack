@@ -49,10 +49,6 @@
     margin-bottom: 10px;
 }
 
-.link-card{
-
-}
-
 .link-pages {
     margin-top: 30px;
     line-height: 60%;
@@ -155,8 +151,7 @@
 #welcome-img {
     display: block;
     margin: 0 auto;
-    width: 50%;
-    min-width: 900px;
+    width: 60vw;
 }
 
 a {
@@ -205,3 +200,8 @@ a {
     padding: 16px 32px;
 }
 
+@media only screen and (max-width: 992px){
+    #welcome-img {
+        width: 100vw;
+    }
+  }

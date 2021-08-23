@@ -19,20 +19,15 @@
     color: rgb(66, 98, 214);
 }
 
-
-
 #home-image {
     margin: 10px;
     width: 100vw;
     height: auto;
     vertical-align: auto;
-    /* margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px; */
 }
 
 .page-link-img {
- float: inherit;
+    float: inherit;
 }
 
 .link-button {
@@ -52,14 +47,15 @@
 .link-pages {
     margin-top: 30px;
     line-height: 60%;
-    /* margin: 20px; */
     width: 100vw;
     align-items: center;
     height: 100%;
 }
-#img-tube{
+
+#img-tube {
     height: 100%;
 }
+
 .btn-link {
     color: #111;
     font-family: 'Manrope', sans-serif;
@@ -76,8 +72,6 @@
     background-color: black;
     color: white;
 }
-
-
 
 /* This code makes the footer a bit shorter */
 /* .page-footer div {
@@ -99,6 +93,7 @@
 /* form{
     margin-top: 30px;
 } */
+
 
 @media only screen and (max-width: 760px) {
 
@@ -152,6 +147,8 @@
     display: block;
     margin: 0 auto;
     width: 60vw;
+=======
+
 }
 
 a {
@@ -205,3 +202,4 @@ a {
         width: 100vw;
     }
   }
+

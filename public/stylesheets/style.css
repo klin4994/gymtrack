@@ -1,8 +1,5 @@
-/* body {
-    font-family: 'Inter', sans-serif;
-} */
-form.signup,
-form.login {
+/* General styles */
+form.signup, form.login {
   margin-top: 20px;
 }
 
@@ -66,14 +63,27 @@ body {
   margin: 0 auto;
 }
 
+/* Navbar */
 #index-navbar {
-  /* margin-left: 20px; */
+  max-width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: #111 2px solid;
+  font-size: 24px;
+}
+
+.navbar-brand{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#index-navbar {
   margin-right: 20px;
   padding: 20px;
   border-bottom: #111 2px solid;
 }
 
-/* Form styles */
+/* Forms */
 .submit-form-div {
     margin: 0 auto;
     width: 600px;
@@ -133,12 +143,6 @@ body {
     font-size: 14px;
 }
 
-/* }
-.signbtn, .logbtn, .add-class-btn :hover{
-  background-color: rgb(255, 89, 0);
-  color: white;
-} */
-
 /* Error modal */
 .error-modal-div, .login-error-modal-div {
     position: relative;
@@ -171,6 +175,7 @@ body {
     float: right;
 }
 
+/* ------- MEDIA QUERIES ------- */
 @media (max-width: 599px) {
     .error-modal-div, .login-error-modal-div {
         width: 300px;
@@ -183,11 +188,6 @@ body {
 }
 
 @media only screen and (max-width: 760px){
-    /* .col-8 {
-        margin: 0 auto;
-        width: 80vw;
-    } */
-
     .signbtn, .logbtn, .add-class-btn{
         padding: 5px 10px;
         font-size: 18px;
@@ -202,10 +202,6 @@ body {
 }
 
 @media only screen and (max-width: 599px){
-    /* .col-8 {
-        margin: 0 auto;
-        width: 100vw;
-    } */
     .submit-form-div {
         width: 350px;
     }

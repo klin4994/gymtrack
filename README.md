@@ -49,14 +49,14 @@ You can test various application functionalities by logging in through one of th
 
 ## Links 
 
-- GitHub repository: [github.com/jkaho/project-2](https://github.com/jkaho/project-2)
+- GitHub repository: [https://github.com/klin4994/gymtrack](https://github.com/klin4994/gymtrack)
 - Deployed application: [gymtrack-app.herokuapp.com](https://gymtrack-app.herokuapp.com/)
 - Presentation slides: [Google Slides](https://docs.google.com/presentation/d/1Fq8ysZkSJzhZkVIfUYoRk6_kMDduu-L-Hf_VRpZTnmg/edit?usp=sharing)
 
 ## Screenshots 
 
 ### Homepage
-![Gymtrack web application homepage](public/images/readme/readme-homepage.png)
+![Gymtrack web application homepage](public/images/readme/readme-home.png)
 
 ### Classes 
 ![Gymtrack web application classes page](public/images/readme/readme-classes.png)
@@ -67,10 +67,10 @@ You can test various application functionalities by logging in through one of th
 ### Profile page 
 
 #### Member  
-![Gymtrack web application member profile page](public/images/readme/readme-profile-instructor.png)
+![Gymtrack web application instructor profile page](public/images/readme/readme-profile-member.png)
 
 #### Instructor 
-![Gymtrack web application instructor profile page](public/images/readme/readme-profile-member.png)
+![Gymtrack web application member profile page](public/images/readme/readme-profile-instructor.png)
 
 ## Contributers 
 

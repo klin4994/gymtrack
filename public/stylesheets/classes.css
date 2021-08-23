@@ -3,14 +3,13 @@
   padding-top: 0;
 }
 .class-page-banner {
-  /* height: 250px;
-  background: linear-gradient(321deg, rgba(255,212,198,1) 0%, rgba(221,111,61,1) 52%, rgba(251,34,20,1) 91%); */
-  background-image: url(../images/group-yoga.jpg);
+  
+  background: linear-gradient(321deg, rgba(255,212,198,1) 0%, rgba(221,111,61,1) 52%, rgba(251,34,20,1) 91%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100vw;
-  height: 35vh;
+  height: 15vh;
   align-items: center;
 }
 
@@ -226,15 +225,18 @@
 }
   
 @media only screen and (max-width: 599px) and (min-width: 500px) {
-    .class-page-banner{
-        height: 50vw;
-    }
+  .class-page-banner{
+    height: 40vw;
+  }
 
-    .class-page-banner-inner {
-        padding: 40px 0;
-        margin-top: 0;
-        padding-top: 60px;
-    }
+  .class-page-banner-inner {
+    padding: 40px 0;
+    margin-top: 0;
+    padding-top: 50px;
+  }
+
+
+
 
     #classes {
         width: 95%;

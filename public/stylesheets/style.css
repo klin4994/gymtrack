@@ -5,7 +5,7 @@ form.signup, form.login {
 
 html {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
 }
 
 body {
@@ -19,6 +19,29 @@ body {
   width: 100%;
 }
 
+#index-navbar {
+  max-width: 100%;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: #111 2px solid;
+  font-size: 24px;
+}
+
+
+
+#index-link {
+  text-align: center
+}
+
+.navbar-brand{
+  margin-left: 4rem;
+  font-size: 36px;
+  font-weight: bold;
+  flex-grow: 8;
+}
+
 .col-12 {
     padding: 0;
     margin: 0;
@@ -30,6 +53,10 @@ body {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
+}
+
+.col-xl-4 {
+  max-width: 800px;
 }
 
 .form-card {
@@ -195,4 +222,13 @@ body {
         font-size: 14px;
         padding: 20px;
     }
+}
+
+@media only screen and (max-width: 992px){
+  .navbar-brand{
+    margin-left: 1rem;
+    font-size: 36px;
+    font-weight: bold;
+    flex-grow: -2;
+  }
 }

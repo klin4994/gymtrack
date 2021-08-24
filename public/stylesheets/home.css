@@ -147,8 +147,6 @@
     display: block;
     margin: 0 auto;
     width: 60vw;
-=======
-
 }
 
 a {
@@ -167,6 +165,7 @@ a {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+
 }
 
 .text-redirect {
@@ -197,9 +196,22 @@ a {
     padding: 16px 32px;
 }
 
-@media only screen and (max-width: 992px){
+.nav-card {
+    margin: 2rem 2rem 0 1rem;
+    
+}
+
+@media only screen and (max-width: 1200px){
     #welcome-img {
         width: 100vw;
     }
-  }
+}
+
+@media only screen and (max-width: 992px){
+    .nav-card {
+        margin: 2rem 2rem 0 1rem;
+        
+    }
+}
+
 

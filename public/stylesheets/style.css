@@ -36,7 +36,7 @@ body {
 }
 
 .navbar-brand{
-  margin-left: 4rem;
+  margin-left: 2rem;
   font-size: 36px;
   font-weight: bold;
   flex-grow: 8;
@@ -131,6 +131,7 @@ body {
 
 /* Footer */
 .page-footer {
+  padding: 20px;
   margin-top: 30px;
   background-color: #111;
   color: #fff;
@@ -196,7 +197,6 @@ body {
     .page-footer {
         padding: 20px;
         width: 100vw;
-        height: 70vh;
         margin-bottom: 0;
     }
 }
@@ -214,7 +214,6 @@ body {
     .page-footer {
         padding: 20px;
         width: 100vw;
-        height: 70vh;
         margin-bottom: 0;
         margin-top: 10px;
     }

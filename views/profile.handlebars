@@ -1,13 +1,24 @@
 <div class="profile-container container">
-    <div class="user-info">
-        <h2>{{firstName}} {{lastName}}</h2>
-        <h5>{{userType}}</h5>
-        <p>
-            <strong>Email:</strong> {{email}}<br>
-            <strong>Date joined: </strong>{{dateJoined}}
-        <p>
-    </div>
-
+    {{#if instructor}}
+        <div class="user-info instructor-bgc">
+            <h2>{{firstName}} {{lastName}}</h2>
+            <h5>{{userType}}</h5>
+            <p>
+                <strong>Email:</strong> {{email}}<br>
+                <strong>Date joined: </strong>{{dateJoined}}
+            <p>
+        </div>
+    {{/if}}
+    {{#if member}}
+        <div class="user-info member-bgc">
+            <h2>{{firstName}} {{lastName}}</h2>
+            <h5>{{userType}}</h5>
+            <p>
+                <strong>Email:</strong> {{email}}<br>
+                <strong>Date joined: </strong>{{dateJoined}}
+            <p>
+        </div>
+    {{/if}}
     <div class="row">
         <div class="col-12">
             <div class="my-classes">
